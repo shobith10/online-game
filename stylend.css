@@ -1,0 +1,103 @@
+#p1{
+    position: absolute;
+    left:12%;
+    top:280;
+}
+#p2{
+    position: absolute;
+    left:73%;
+    top:235;
+}
+#hed{
+    position: absolute;
+    left:340;
+    font-size: 120px;
+    font-weight: bold;
+    font-stretch: semi-expanded;
+    font-family: 'Courier New', Courier, monospace;
+    color:firebrick;
+    text-shadow: 5px 9px darksalmon;
+}
+#sel{
+    padding: 12px 140px;
+    position: absolute;
+    top:30%;
+    left:7%;
+
+}
+.play{
+    position: absolute;
+    top:69%;
+    left:44%;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+
+#player{
+    position: absolute;
+    left:7%;
+    top:10%;
+    border: #80bfff;
+    color: black;
+    font-size:20px;
+}
+
+#computer{
+    position: absolute;
+    left:68%;
+    top:10%;
+    color:black;
+    font-size:20px;
+ 
+}
+#pscore{
+    position: absolute;
+    left:33%;
+    top:16%;
+    color: black;
+    font-size:17px;
+}
+#cscore{
+    position: absolute;
+    left:94%;
+    top:16%;
+    color: black;
+    font-size:17px;
+}
+#target{
+    position: absolute;
+    left:43%;
+    top:30%;
+    color:black;
+    font-size:25px;
+}
+#tscore{
+    position:absolute;
+    left:50%;
+    top:50%;
+    font-size:20px;
+}
+#bat{
+    text-align: center;
+    padding:15px 31px;
+    position: absolute;
+    left:45%;
+    top:40%;
+}
+#ball{
+    text-align: center;
+    padding:15px 30px;
+    position: absolute;
+    left:45%;
+    top:60%;
+}
